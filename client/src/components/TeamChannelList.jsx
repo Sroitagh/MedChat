@@ -12,7 +12,7 @@ const TeamChannelList = ({ setToggleContainer, children, error = false, loading,
             </div>
         ) : null
  }
- if(loading){
+ if(loading){ 
     return(
         <div className="team-channel-list">
         <p className="team-channel-list__message loading">
